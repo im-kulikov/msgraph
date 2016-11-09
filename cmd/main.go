@@ -20,7 +20,7 @@
 
 package main
 
-import "github.com/crosse/msgraph/cmd/cmd"
+import "github.com/Crosse/msgraph/cmd/cmd"
 
 func main() {
 	cmd.Execute()

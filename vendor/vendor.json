@@ -8,14 +8,14 @@
 		},
 		{
 			"checksumSHA1": "1IeSD7UyLXPqBP1nbaqpT9fSanQ=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/BurntSushi/toml",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/BurntSushi/toml",
 			"path": "github.com/BurntSushi/toml",
 			"revision": "bbd5bb678321a0d6e58f1099321dfa73391c1b6f",
 			"revisionTime": "2016-03-09T02:19:12Z"
 		},
 		{
 			"checksumSHA1": "E8I63rvTnE9EW39koVgSt+v67no=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/Sirupsen/logrus",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/Sirupsen/logrus",
 			"path": "github.com/Sirupsen/logrus",
 			"revision": "6f383a9b2998dd6f401704269c3e6e192f6175ad",
 			"revisionTime": "2015-11-09T11:36:32Z"
@@ -28,179 +28,179 @@
 		},
 		{
 			"checksumSHA1": "5LrCq/ydlbL6pq1cdmuxiw7QV98=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl",
 			"path": "github.com/hashicorp/hcl",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "WP5ODRo9+USuAsKYPu5RW3q8Epg=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/ast",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/ast",
 			"path": "github.com/hashicorp/hcl/hcl/ast",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "SVw0qm83Anf5T2GkYabn+f7Ibv0=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/parser",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/parser",
 			"path": "github.com/hashicorp/hcl/hcl/parser",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "WZM0q7Sya8PcGj607x1npgcEPa4=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/scanner",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/scanner",
 			"path": "github.com/hashicorp/hcl/hcl/scanner",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "wh2mSXMC88JiAy8FIrTtL7OmY7Q=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/strconv",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/strconv",
 			"path": "github.com/hashicorp/hcl/hcl/strconv",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "VGNVyGYDGTTCTRqGH5R+CL0u6xw=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/token",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/hcl/token",
 			"path": "github.com/hashicorp/hcl/hcl/token",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "uEaK2zagnGctsUmjWt8ZYmK1Yvs=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/json/parser",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/json/parser",
 			"path": "github.com/hashicorp/hcl/json/parser",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "S1e0F9ZKSnqgOLfjDTYazRL28tA=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/json/scanner",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/json/scanner",
 			"path": "github.com/hashicorp/hcl/json/scanner",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "fNlXQCQEnb+B3k5UDL/r15xtSJY=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/hashicorp/hcl/json/token",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/hashicorp/hcl/json/token",
 			"path": "github.com/hashicorp/hcl/json/token",
 			"revision": "27a57f2605e04995c111273c263d51cee60d9bc4",
 			"revisionTime": "2016-04-13T17:25:42Z"
 		},
 		{
 			"checksumSHA1": "40vJyUB4ezQSn/NSadsKEOrudMc=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/inconshreveable/mousetrap",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/inconshreveable/mousetrap",
 			"path": "github.com/inconshreveable/mousetrap",
 			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
 			"revisionTime": "2014-10-17T20:07:13Z"
 		},
 		{
 			"checksumSHA1": "HIsIO4+e5awXjNSj/UJzbSePEZQ=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/kr/pretty",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/kr/pretty",
 			"path": "github.com/kr/pretty",
 			"revision": "add1dbc86daf0f983cd4a48ceb39deb95c729b67",
 			"revisionTime": "2016-03-25T21:56:24Z"
 		},
 		{
 			"checksumSHA1": "uulQHQ7IsRKqDudBC8Go9J0gtAc=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/kr/text",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/kr/text",
 			"path": "github.com/kr/text",
 			"revision": "bb797dc4fb8320488f47bf11de07a733d7233e1f",
 			"revisionTime": "2015-09-05T22:45:08Z"
 		},
 		{
 			"checksumSHA1": "eqs9e0Fw1wlUZCj/ZtrSwnPsJ54=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/magiconair/properties",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/magiconair/properties",
 			"path": "github.com/magiconair/properties",
 			"revision": "c265cfa48dda6474e208715ca93e987829f572f8",
 			"revisionTime": "2016-03-20T20:54:47Z"
 		},
 		{
 			"checksumSHA1": "KCJhN9Dx329wAN/SeL4CxeypPyk=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/mitchellh/mapstructure",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/mitchellh/mapstructure",
 			"path": "github.com/mitchellh/mapstructure",
 			"revision": "d2dd0262208475919e1a362f675cfc0e7c10e905",
 			"revisionTime": "2016-02-12T03:18:39Z"
 		},
 		{
 			"checksumSHA1": "E1899TNqCHhCtr6+joW4YEldRuE=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/spf13/cast",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/spf13/cast",
 			"path": "github.com/spf13/cast",
 			"revision": "27b586b42e29bec072fe7379259cc719e1289da6",
 			"revisionTime": "2016-03-03T19:15:55Z"
 		},
 		{
 			"checksumSHA1": "/r7cjQsFAPHwW1vUgbP0/WFZVPE=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/spf13/cobra",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/spf13/cobra",
 			"path": "github.com/spf13/cobra",
 			"revision": "4c05eb1145f16d0e6bb4a3e1b6d769f4713cb41f",
 			"revisionTime": "2016-04-03T14:08:35Z"
 		},
 		{
 			"checksumSHA1": "dkruahfhuLXXuyeCuRpsWlcRK+8=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/spf13/jwalterweatherman",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/spf13/jwalterweatherman",
 			"path": "github.com/spf13/jwalterweatherman",
 			"revision": "33c24e77fb80341fe7130ee7c594256ff08ccc46",
 			"revisionTime": "2016-03-01T12:00:06Z"
 		},
 		{
 			"checksumSHA1": "frhqjUscvFwHZ7XpfuJgPPDKxFw=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/spf13/pflag",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/spf13/pflag",
 			"path": "github.com/spf13/pflag",
 			"revision": "8f6a28b0916586e7f22fe931ae2fcfc380b1c0e6",
 			"revisionTime": "2016-04-13T14:43:53Z"
 		},
 		{
 			"checksumSHA1": "PcY9mPry2ntvgSrSBDAdTJ3E3gU=",
-			"origin": "github.com/crosse/msgraph/vendor/github.com/spf13/viper",
+			"origin": "github.com/Crosse/msgraph/vendor/github.com/spf13/viper",
 			"path": "github.com/spf13/viper",
 			"revision": "c975dc1b4eacf4ec7fdbf0873638de5d090ba323",
 			"revisionTime": "2015-12-30T06:11:39Z"
 		},
 		{
 			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
-			"origin": "github.com/crosse/msgraph/vendor/golang.org/x/net/context",
+			"origin": "github.com/Crosse/msgraph/vendor/golang.org/x/net/context",
 			"path": "golang.org/x/net/context",
 			"revision": "b400c2eff1badec7022a8c8f5bea058b6315eed7",
 			"revisionTime": "2016-06-19T19:44:24Z"
 		},
 		{
 			"checksumSHA1": "UtUkp2yqxAwGreQoHhrBR0Mttg4=",
-			"origin": "github.com/crosse/oauth2",
+			"origin": "github.com/Crosse/oauth2",
 			"path": "golang.org/x/oauth2",
 			"revision": "51937c331372fed87918a4e78ffb3bb9e385a291",
 			"revisionTime": "2016-07-18T21:22:38Z"
 		},
 		{
 			"checksumSHA1": "D3v/aqfB9swlaZcSksCoF+lbOqo=",
-			"origin": "github.com/crosse/oauth2/internal",
+			"origin": "github.com/Crosse/oauth2/internal",
 			"path": "golang.org/x/oauth2/internal",
 			"revision": "51937c331372fed87918a4e78ffb3bb9e385a291",
 			"revisionTime": "2016-07-18T21:22:38Z"
 		},
 		{
 			"checksumSHA1": "X/I0uOcP6xJ0x04gA1ivpBfqYJE=",
-			"origin": "github.com/crosse/oauth2/microsoft/clientcredentials",
+			"origin": "github.com/Crosse/oauth2/microsoft/clientcredentials",
 			"path": "golang.org/x/oauth2/microsoft/clientcredentials",
 			"revision": "51937c331372fed87918a4e78ffb3bb9e385a291",
 			"revisionTime": "2016-07-18T21:22:38Z"
 		},
 		{
 			"checksumSHA1": "73BIEVgn8mV/pIAKb9JqujQYEcc=",
-			"origin": "github.com/crosse/msgraph/vendor/gopkg.in/fsnotify.v1",
+			"origin": "github.com/Crosse/msgraph/vendor/gopkg.in/fsnotify.v1",
 			"path": "gopkg.in/fsnotify.v1",
 			"revision": "836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6",
 			"revisionTime": "2016-04-13T22:32:47Z"
 		},
 		{
 			"checksumSHA1": "SYwpsitf6VYOlNpJf6M3w+9l1nM=",
-			"origin": "github.com/crosse/msgraph/vendor/gopkg.in/yaml.v2",
+			"origin": "github.com/Crosse/msgraph/vendor/gopkg.in/yaml.v2",
 			"path": "gopkg.in/yaml.v2",
 			"revision": "d466437aa4adc35830964cffc5b5f262c63ddcb4",
 			"revisionTime": "2014-10-29T21:08:43Z"
 		}
 	],
-	"rootPath": "github.com/crosse/msgraph"
+	"rootPath": "github.com/Crosse/msgraph"
 }

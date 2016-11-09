@@ -25,7 +25,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/crosse/msgraph"
+	"github.com/Crosse/msgraph"
 	"github.com/fatih/structs"
 	"github.com/guregu/null"
 	"github.com/spf13/cobra"
