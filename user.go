@@ -259,7 +259,6 @@ func (api *GraphAPI) GetUser(id string, properties []string) (user User, err err
 	}
 
 	resp, err := client.Get(endpoint)
-	log.Debugf("Response: %v", resp)
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
@@ -272,4 +271,55 @@ func (api *GraphAPI) GetUser(id string, properties []string) (user User, err err
 	}
 
 	return
+}
+
+type PagedResponse struct {
+	Context  string          `json:"@odata.context,omitempty"`
+	NextLink string          `json:"@odata.nextLink,omitempty"`
+	Value    json.RawMessage `json:"value,omitempty"`
+}
+
+func (api *GraphAPI) GetUsers(filter string) ([]User, error) {
+	log.WithFields(log.Fields{
+		"filter": filter,
+	}).Info("Getting users from Graph API")
+
+	endpoint := fmt.Sprintf("%s", api.GetResourceEndpoint(resources["UserV1"]))
+	// do stuff
+
+	client, err := api.Client()
+	if err != nil {
+		return nil, err
+	}
+
+	users := make([]User, 10)
+	page := PagedResponse{}
+
+	for {
+		resp, err := client.Get(endpoint)
+		defer resp.Body.Close()
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			return nil, err
+		}
+
+		if err = json.Unmarshal(body, &page); err != nil {
+			return nil, err
+		}
+
+		var u []User
+		if err = json.Unmarshal(page.Value, &u); err != nil {
+			return nil, err
+		}
+		users = append(users, u...)
+
+		if len(page.NextLink) == 0 {
+			api.log.Debugf("Finished getting paged results")
+			break
+		}
+		api.log.Debugf("Paged response; NextLink: %v", page.NextLink)
+		endpoint = page.NextLink
+	}
+
+	return nil, nil
 }

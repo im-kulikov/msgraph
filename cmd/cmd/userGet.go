@@ -38,7 +38,11 @@ var userGetCmd = &cobra.Command{
 	Short: "Get a user from the Graph API",
 	Long:  `Get a user from the Graph API`,
 	Run: func(cmd *cobra.Command, args []string) {
-		getUsers(args[0], args[1:])
+		if len(args) == 0 {
+			getUsers()
+		} else {
+			getUser(args[0], args[1:])
+		}
 	},
 }
 
@@ -56,7 +60,7 @@ func setupAPI() *msgraph.GraphAPI {
 	return api
 }
 
-func getUsers(user string, properties []string) {
+func getUser(user string, properties []string) {
 	api := setupAPI()
 
 	// Get the user from the Graph.
@@ -86,6 +90,17 @@ func getUsers(user string, properties []string) {
 	for _, prop := range props {
 		fmt.Printf(format, prop, getValueAsString(m, prop))
 	}
+}
+
+func getUsers() {
+	api := setupAPI()
+	result, err := api.GetUsers("$filter=startswith(name,'smith')")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error: %v", err)
+		return
+	}
+
+	fmt.Println(result)
 }
 
 func getValueAsString(user map[string]interface{}, property string) string {
